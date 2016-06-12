@@ -8,7 +8,7 @@ enough to remove the one(s) you don't need or add your own.
 
 Installation is quick and painless. Just clone this project somewhere on your machine, and drag-n-drop it from there.
 
-```git clone https://github.com/erikyuzwa/grunt-project-quickstart.git
+    git clone https://github.com/erikyuzwa/grunt-project-quickstart.git
 
 * make sure node.js is installed
 * merge the `devDependencies` section of the `package.json` with your own (if you have one)
