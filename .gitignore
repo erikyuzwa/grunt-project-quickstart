@@ -1,0 +1,33 @@
+
+# some common directories to ignore in a webproject
+# update at your leisure
+
+.tmp
+.sass-cache
+var
+.metadata/
+RemoteSystemsTempFiles/
+0
+.DS_Store
+npm-debug.log
+node_modules/
+temp/
+docs/
+build/
+production/
+
+# NEVER commit any cloud credentials (assuming you have them in a *.json)
+credentials.json
+
+# WebStorm project ignores
+.idea/
+
+# FlashBuilder project ignores
+.settings/*
+bin-debug/*
+bin-release/*
+*.prefs
+
+# Sublime Text ignores
+*.sublime-workspace
+*.sublime-project
