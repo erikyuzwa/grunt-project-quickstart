@@ -13,9 +13,13 @@ Installation is quick and painless. Just clone this project somewhere on your ma
 * make sure node.js is installed
 * merge the `devDependencies` section of the `package.json` with your own (if you have one)
 * `npm install` to pull down the *Grunt* dependencies
+* proceed to make awesome, knowing that you've saved yourself hours of hair pulling
 
 # Usage
 
+* `grunt build` - launch the `grunt/tasks/build.js` - for now just copies your source into `./build`
+* `grunt serve` - launch the `grunt/tasks/serve.js` - starts a local dev webserver for `./app/index.html`
+* `grunt test` - launch Karma on any tests in the `./test/spec` folder
 
 # License 
 
