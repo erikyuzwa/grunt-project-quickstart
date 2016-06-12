@@ -2,10 +2,6 @@
 // copy.js
 'use strict';
 
-
-// copy.js
-'use strict';
-
 module.exports = function(grunt) {
 
   // Configurable paths for the application
@@ -13,8 +9,8 @@ module.exports = function(grunt) {
   
   return {
 
-    // `grunt copy:dist`
-    dist: {
+    // `grunt copy:build`
+    build: {
       files: [{
         expand: true,
         dot: true,
@@ -35,14 +31,6 @@ module.exports = function(grunt) {
         cwd: '.tmp/images',
         dest: 'build/images',
         src: ['generated/*']
-      }, {
-        expand: true,
-        cwd: '.',
-        src: 'package.electron.json',
-        dest: 'build/',
-        rename: function(dest, src) {
-          return dest + src.replace('electron.json','json');
-        }
       }]
     }
   };

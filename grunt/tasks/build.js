@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   
   // `grunt build`
   grunt.registerTask('build', 'compile and minify source to build folder.', function() {
-    grunt.task.run(['clean:build', 'copy:dist']);
+    grunt.task.run(['clean:build', 'copy:build']);
   });
   
 };
